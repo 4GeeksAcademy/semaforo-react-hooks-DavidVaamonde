@@ -20,8 +20,66 @@ div {
 }
 
 #container {
+    border: 6px solid #636363;
     background-color: #050505;
-    width: 250px;
-    height: 400px;
+    width: auto;
+    height: auto;
     border-radius: 15px;
+}
+
+.red-light {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #A1A1A1;
+    background-color: #FF350D;
+    margin: 15px;
+}
+
+.red-light-selected {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #A1A1A1;
+    background-color: #FF350D;
+    margin: 15px;
+    box-shadow: 0 0 20px 5px white;
+}
+
+.yellow-light {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #A1A1A1;
+    background-color: #F1FF0C;
+    margin: 15px;
+}
+
+.yellow-light-selected {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #A1A1A1;
+    background-color: #F1FF0C;
+    margin: 15px;
+    box-shadow: 0 0 20px 5px white;
+}
+
+.green-light {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #A1A1A1;
+    background-color: #06FF0A;
+    margin: 15px;
+}
+
+.green-light-selected {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #A1A1A1;
+    background-color: #06FF0A;
+    margin: 15px;
+    box-shadow: 0 0 20px 5px white;
 }
