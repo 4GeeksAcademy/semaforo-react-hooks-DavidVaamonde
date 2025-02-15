@@ -13,7 +13,7 @@ div {
 }
 
 #trafficTop {
-    background-color: #636363;
+    background-color: #050505;
     width: 15px;
     height: 100px;
     margin-top: 20px;
@@ -80,6 +80,33 @@ div {
     border-radius: 50%;
     border: 2px solid #A1A1A1;
     background-color: #06FF0A;
+    margin: 15px;
+    box-shadow: 0 0 20px 5px white;
+}
+
+#botones {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+/*boton purpura*/
+.purple-light {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #A1A1A1;
+    background-color: #C624FF;
+    margin: 15px;
+}
+
+.purple-light-selected {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #A1A1A1;
+    background-color: #C624FF;
     margin: 15px;
     box-shadow: 0 0 20px 5px white;
 }

@@ -11,7 +11,7 @@ import TrafficLight from "../components/TrafficLight";
 const Home = () => {
 	return (
 		<>
-		<TrafficLight />	
+		<TrafficLight/>
 		</>
 	);
 };
