@@ -84,13 +84,6 @@ div {
     box-shadow: 0 0 20px 5px white;
 }
 
-#botones {
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin: 20px;
-}
-
 /*boton purpura*/
 .purple-light {
     width: 150px;

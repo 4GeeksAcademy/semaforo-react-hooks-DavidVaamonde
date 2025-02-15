@@ -13,10 +13,17 @@ const TrafficLight = () => {
     let verdeCond = color === "green" ? "-selected" : "";
 
     //1º Punto Extra
-    const [ automatico, setAutomatico ] = useState(false);
+    const [ alternar, setAlternar ] = useState("red");
 
-    const handleClickAutomatico = (light) => {
-
+    const handleClickAlterar = () => {
+        if (color === "red") {
+            setAlternar(amarillo);
+        } else if (color === "yellow") {
+            setAlternar(verde);
+        } else if (color === "green") {
+            setAlternar(rojo);
+        } else
+            setAlternar(rojo);
     }
 
     //2º Punto Extra
@@ -42,11 +49,15 @@ const TrafficLight = () => {
                 )}
                 
             </div>
-            <div id="botones">
+            <div className="d-flex flex-row">
                 
-                <button>Modo { automatico ? "Manual" : "Automático" }</button>
+                <button onClick={ handleClickAlterar } className="btn btn-outline-primary m-2">
+                    Alternar color
+                </button>
 
-                <button onClick={handleClickPurpura}>Añadir púrpura { esPurpura ? "Activo" : "Inactivo" }</button>
+                <button onClick={handleClickPurpura} className="btn btn-outline-secondary m-2">
+                    Añadir púrpura { esPurpura ? "Activado" : "Desactivado" }
+                </button>
 
             </div>
         </div>
